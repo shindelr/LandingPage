@@ -9,6 +9,16 @@ h1,
     color: #F9FAF8;
 }
 
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+ul {
+    list-style: none;
+}
+
 .title {
     font-size: 48px;
     font-weight: 800;
@@ -39,7 +49,7 @@ h1,
 }
 
 .header-links {
-    list-style: none;
+    /* list-style: none; */
     display: flex;
     gap: 15px;
 }
@@ -88,9 +98,56 @@ a.signup {
     min-width: 400px;
     max-width: 500px;
     min-height: 250px;
+    border-radius: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-and-labels {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.random-boxes-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.rando-box {
+    display: flex;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+    width: 150px;
+    height: 160px;
+}
+
+.rando-box-labels {
+    display: flex;
+    justify-content: center;
+}
+
+.rando-box-label {
+    display: flex;
+    width: 150px;
+
+}
+
 
