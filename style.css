@@ -10,6 +10,7 @@ h1,
 }
 
 h2 {
+    display: flex;
     font-size: 36px;
     color: #1F2937;
     font-weight: 800;
@@ -110,6 +111,7 @@ a.signup {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .cont-top {
@@ -119,35 +121,24 @@ a.signup {
     align-items: center;
 }
 
-.box-and-labels {
+.boxes-and-labels {
+    display: flex;
+    justify-content: center;
+}
+
+.box-label-pair {
     display: flex;
     flex-direction: column;
-    gap: 55px;
+    align-items: center;
+    max-width: 150px;
+    max-height: 175px;
 }
 
-.random-boxes-cont {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.rando-box {
-    display: flex;
+.box {
     border: 2px solid #3882F6;
-    border-radius: 12px;
-    width: 150px;
-    height: 160px;
+    border-radius: 8px;
+    
 }
 
-.rando-box-labels {
-    display: flex;
-    justify-content: center;
-}
-
-.rando-box-label {
-    display: flex;
-    width: 150px;
-
-}
 
 
