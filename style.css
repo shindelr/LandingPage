@@ -215,5 +215,12 @@ h3,
 }
 
 .action-signup {
-    
+    width: 110px;
+    max-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: #3882F6;
 }
