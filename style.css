@@ -118,6 +118,7 @@ a.signup {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 80px;
 }
 
 .cont-top {
@@ -127,6 +128,7 @@ a.signup {
     align-items: center;
     flex-wrap: wrap;
     margin: 25px;
+    margin-bottom: 0;
     gap: 25px;
 }
 
@@ -185,3 +187,33 @@ a.signup {
     font-weight: 700;
 }
 
+.cont-bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    width: 800px;
+    padding: 30px;
+}
+
+.action-words {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 0;
+}
+
+h3,
+.action-p {
+    font-size: 24px;
+    margin: 3px;
+}
+
+.action-p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
+}
+
+.action-signup {
+    
+}
