@@ -159,9 +159,29 @@ a.signup {
 }
 
 .cont-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
-    min-width: 300px;
-    max-width: 1440px;
     height: 200px;
+    border-radius: 15px;
+    padding: 100px;
+}
+
+.quote,
+.speaker {
+    display: flex;
+    color: #1F2937;    
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 2px;
+}
+
+.speaker {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 0;
+    font-weight: 700;
 }
 
